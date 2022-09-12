@@ -1,17 +1,14 @@
 package com.linkedlist;
 
-public class LinkedListMain {
+public class Insert {
     public static void main(String[] args) {
         System.out.println("welcome to linked list program");
         LinkedList list = new LinkedList();
-        list.add(56);
-        list.add(30);
-        list.add(70);
+        list.append(56);
+        list.append(70);
         list.show();
 
         list.insertAtMiddle(30);
         list.show();
     }
-
 }
-
