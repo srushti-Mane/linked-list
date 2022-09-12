@@ -49,7 +49,14 @@ public class LinkedList {
             middle.next = newNode;
         }
     }
+    public void pop() {
+        if(head == null) {
+            System.out.print("empty");
         }
+        head = head.next;
+    }
+}
+
 
 
 
